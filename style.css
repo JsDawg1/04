@@ -1,0 +1,76 @@
+@font-face {
+    font-family: custom1;
+    src: url("WorkSans-Italic-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: custom2;
+    src: url("WorkSans-VariableFont_wght.ttf")
+}
+
+
+body{
+    margin:0px;
+    padding:0px;
+    height:100vh;
+    background-color: #efdaf5; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    height:auto;
+    width:40vw;
+    background-color: white;
+    border-radius: 30px;
+    padding: 25px;
+      
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+ 
+.header{
+    display: flex;
+}
+.list{
+    width: 100%;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.liBody{
+     display: none;
+     transition: all 0.3s ease;
+}
+
+.container h1, h3{
+    font-family: custom2;
+}
+
+h1{
+    font-size: 50px;
+}
+h3{
+    font-size: 15px;
+}
+
+h3:hover{
+    color: rgb(172, 22, 172);
+}
+
+.liBody>p{
+    font-family: custom2;
+    font-size: 13px;
+    max-width: 600px;
+}
+ 
